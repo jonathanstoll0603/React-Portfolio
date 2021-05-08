@@ -1,0 +1,6 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.education-header, .experience-header, .skills-header {
+    border-bottom: 0.5px solid black;
+}
