@@ -1,0 +1,13 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.profile-pic-container {
+    justify-items: center;
+}
+
+.profile-pic {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 370px; 
+    height: 450px;
+}
