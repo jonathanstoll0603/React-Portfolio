@@ -8,13 +8,13 @@ class Resume extends Component {
     return (
         <Container>
             <section className="text-center">
-                <h1 className="my-3 py-2 text-center resume-header">Resume</h1>
-                <span><a  className="text-dark" href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:c4585c24-432e-4b08-b80c-0373a48f5b03">A full resume in PDF format can be found here</a></span>
+                <h1 className="my-3 py-2 text-center text-info resume-header">Resume</h1>
+                <span><a  className="text-info" href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:c4585c24-432e-4b08-b80c-0373a48f5b03">A full resume in PDF format can be found here</a></span>
             </section>
             <section className="row row-cols-1 text-center my-5">
-                <h2 className="col-md-12 py-2 education-header">Education</h2>
+                <h2 className="col-md-12 py-2 text-info education-header">Education</h2>
             </section>
-            <section className="row text-center">
+            <section className="row text-center text-info">
                 <p className="col-md-4">
                     University of Georgia
                 </p>
@@ -34,10 +34,10 @@ class Resume extends Component {
                     December 2020 - May 2021
                 </p>
             </section>
-            <section className="row row-cols-1 text-center my-5">
+            <section className="row row-cols-1 text-center my-5 text-info">
                 <h2 className="col-md-12 py-2 education-header">Experience</h2>
             </section>
-            <section className="row text-center">
+            <section className="row text-center text-info">
                 <p className="col-md-6">
                     Associate LIMS Engineer at LabLynx
                 </p>
@@ -63,10 +63,10 @@ class Resume extends Component {
                     June 2017 - June 2018
                 </p>
             </section>
-            <section className="row row-cols-1 text-center my-5">
+            <section className="row row-cols-1 text-center my-5 text-info">
                 <h2 className="col-md-12 py-2 education-header">Skills</h2>
             </section>
-            <section className="row text-center">
+            <section className="row text-center text-info">
                 <div className="col-md-6">
                     <h2 className="col-md-12 mb-3 technical-skills">Technical:</h2>
                     <p className="col-md-12">

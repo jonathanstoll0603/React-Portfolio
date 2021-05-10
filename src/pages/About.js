@@ -9,9 +9,9 @@ class Home extends Component {
     return (
         <Container>
           <section>
-            <h1 className="my-3 text-center">About me</h1>
+            <h1 className="my-3 text-center text-info">About me</h1>
           </section>
-          <section className="row row-cols-1 mx-4 text-center">
+          <section className="row row-cols-1 mx-4 text-center text-info">
               <div className="col-md-12">
                 <img src={profilePic} className="profile-pic" alt="Jon Stoll in La Jolla, California on the coastline"></img>
                 <p className="py-3">
@@ -19,7 +19,7 @@ class Home extends Component {
                 </p>
               </div>
             </section>
-            <section className="row row-cols-1 mx-4 text-center">
+            <section className="row row-cols-1 mx-4 text-center text-info">
               <div className="col-md-12">
                 <p className="py-3">
                   One passion in particular that I have come to love is healthcare LIS/LIMS systems. This is in part due to the fact that I have been given the opportunity to work as my current department's LIMS Analyst where I have gained extensive knowledge building, validating, and improving the organization's data management software. In recent decades, these systems have predominantly moved to browser based applications that offer powerful capabilities not seen in past systems. Unfortunately, many of these browser based programs run on outdated languages that offer dismal wait times and clunky UI's. My goal is to graduate from the full stack web development program with the knowledge needed to improve and even recreate these systems from scratch. With the development of newer technologies and integration of up-to-date languages, millions more patients could benefit, and healthcare organizations can save enormous amounts of time and money.
