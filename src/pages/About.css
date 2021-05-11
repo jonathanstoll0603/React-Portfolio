@@ -17,6 +17,11 @@ p {
     height: 350px;
 }
 
-.about-header {
-    color:  rgb(46,117,141);
+.about-me {
+    color:  rgb(46,117,141, 0.9);
+    font-size: 58px;
+}
+
+.about-me-link {
+    color:  rgb(46,117,141, 0.9);
 }

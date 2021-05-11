@@ -8,9 +8,11 @@ class Home extends Component {
   render() {
     return (
         <Container>
-          {/* <section>
-            <h1 className="text-center py-3 about-header">About me</h1>
-          </section> */}
+          <section className="text-center pt-4">
+            <span className="about-me">About Me</span>
+            <a href="https://github.com/jonathanstoll0603/React-employee-directory" target="_blank" className="px-4 about-me-link" alt="GitHub link"><i class="fab fa-github-square fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/jonathan-stoll-092351133/" target="_blank" className="px-4 about-me-link " alt="LinkedIn Link"><i class="fab fa-linkedin-in fa-3x"></i></a>
+          </section>
           <section className="row row-cols-2 mx-4 py-5 text-center text-white">
               <div className="col-md-3 my-3">
                 <img src={profilePic} className="profile-pic" alt="Jon Stoll in Atlanta Georgia with the City skyline behind him."></img>
