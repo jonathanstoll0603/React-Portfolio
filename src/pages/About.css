@@ -1,13 +1,22 @@
 * {
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+p {
+    color: white;
+    font-size: 20px;
+    background: rgba(33, 33, 33, .4);
+}
+
 .profile-pic-container {
     justify-items: center;
 }
 
 .profile-pic {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 370px; 
-    height: 450px;
+    width: 270px; 
+    height: 350px;
+}
+
+.about-header {
+    color:  rgb(46,117,141);
 }
